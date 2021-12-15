@@ -7,13 +7,6 @@
             <a class="btn btn-primary btn-xl text-uppercase" href="#services">Lihat Foto</a>
         </div>
     </header>
-<<<<<<< HEAD
-    <!-- <video width="320" height="240" controls>
-        <source src="/video/video1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video> -->
-=======
->>>>>>> c91949887a89b2453561f136c6804ecc6e062bd0
     <section class="page-section bg-light" id="services"> 
         <div class="container">
             <h2 class="text-center">Gallery Mushofahah</h4>
