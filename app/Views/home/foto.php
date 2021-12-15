@@ -36,7 +36,6 @@
                 </tfoot>
                 <?php
                     // $dirname = 'pondok/';
-<<<<<<< HEAD
                     if($folder){
                         $images = glob("$folder/$file/*.mp4");
                         $NO = 1;
@@ -44,15 +43,15 @@
                         $images = glob("images/pondok/*.jpg");
                         $NO = 1;
                     }
-=======
+
                     $images = glob("images/pondok/*.jpg");
                     $NO = 1;
->>>>>>> c91949887a89b2453561f136c6804ecc6e062bd0
+
                 ?>
                     <?php foreach ($images as $image):?>
                     <tbody>
                         <tr>
-<<<<<<< HEAD
+
                             <?php if($file):?>
                                 <td><?=$NO++;?></td>
                                 <td>
@@ -67,11 +66,9 @@
                                 <td><a href="/<?=$image;?>"><img class="img-thumbnail rounded lazy" data-src="/<?=$image;?>" height="300px" width="300px" /></a></td>
                                 <td><a href="/<?=$image;?>" class="btn btn-primary" type="submit" name="dowmload" value="/<?=$image;?>" download=""/<?=$image;?>"">Download</a></td>
                             <?php endif;?>
-=======
                             <td><?=$NO++;?></td>
                             <td><a href="/<?=$image;?>"><img class="img-thumbnail rounded lazy" data-src="/<?=$image;?>" height="300px" width="300px" /></a></td>
                             <td><a href="/<?=$image;?>" class="btn btn-primary" type="submit" name="dowmload" value="/<?=$image;?>" download=""/<?=$image;?>"">Download</a></td>
->>>>>>> c91949887a89b2453561f136c6804ecc6e062bd0
                         </tr>
                     </tbody>
                     <?php endforeach;?>
