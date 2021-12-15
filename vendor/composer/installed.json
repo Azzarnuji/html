@@ -917,11 +917,7 @@
                     "dev-master": "9.2-dev"
                 }
             },
-<<<<<<< HEAD
             "installation-source": "source",
-=======
-            "installation-source": "dist",
->>>>>>> c91949887a89b2453561f136c6804ecc6e062bd0
             "autoload": {
                 "classmap": [
                     "src/"
@@ -985,11 +981,9 @@
                     "dev-master": "3.0-dev"
                 }
             },
-<<<<<<< HEAD
+
             "installation-source": "source",
-=======
             "installation-source": "dist",
->>>>>>> c91949887a89b2453561f136c6804ecc6e062bd0
             "autoload": {
                 "classmap": [
                     "src/"
@@ -1056,11 +1050,8 @@
                     "dev-master": "3.1-dev"
                 }
             },
-<<<<<<< HEAD
             "installation-source": "source",
-=======
             "installation-source": "dist",
->>>>>>> c91949887a89b2453561f136c6804ecc6e062bd0
             "autoload": {
                 "classmap": [
                     "src/"
@@ -1122,11 +1113,7 @@
                     "dev-master": "2.0-dev"
                 }
             },
-<<<<<<< HEAD
             "installation-source": "source",
-=======
-            "installation-source": "dist",
->>>>>>> c91949887a89b2453561f136c6804ecc6e062bd0
             "autoload": {
                 "classmap": [
                     "src/"
@@ -1188,11 +1175,7 @@
                     "dev-master": "5.0-dev"
                 }
             },
-<<<<<<< HEAD
             "installation-source": "source",
-=======
-            "installation-source": "dist",
->>>>>>> c91949887a89b2453561f136c6804ecc6e062bd0
             "autoload": {
                 "classmap": [
                     "src/"
@@ -1289,11 +1272,7 @@
                     "dev-master": "9.5-dev"
                 }
             },
-<<<<<<< HEAD
             "installation-source": "source",
-=======
-            "installation-source": "dist",
->>>>>>> c91949887a89b2453561f136c6804ecc6e062bd0
             "autoload": {
                 "classmap": [
                     "src/"
