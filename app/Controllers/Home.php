@@ -16,7 +16,7 @@ class Home extends BaseController
         ];
         return view('home/index',$data);
     }
-<<<<<<< HEAD
+
     public function foto($folder = null, $file = null){
         $data = [
             'title'=>"Gallery Santri",
@@ -25,20 +25,4 @@ class Home extends BaseController
         ];
         return view('home/foto',$data);
     }
-    // public function downloadvideo($file){
-    //     $this->response->removeHeader('Content-Type');
-    //     $data = [
-    //         'title'=>"Gallery Video",
-    //         'file'=>$file
-    //     ];
-    //     return view('home/foto',$data);
-    // }
-=======
-    public function foto(){
-        $data = [
-            'title'=>"Gallery Santri"
-        ];
-        return view('home/foto',$data);
-    }
->>>>>>> c91949887a89b2453561f136c6804ecc6e062bd0
 }
