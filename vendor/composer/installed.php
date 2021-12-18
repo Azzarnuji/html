@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '7e9caed6db9c0d3f57a07cffb34a9d022de28587',
         'name' => 'codeigniter4/appstarter',
         'dev' => true,
     ),
     'versions' => array(
         'codeigniter4/appstarter' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '7e9caed6db9c0d3f57a07cffb34a9d022de28587',
             'dev_requirement' => false,
         ),
         'codeigniter4/framework' => array(

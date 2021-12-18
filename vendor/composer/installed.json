@@ -917,7 +917,7 @@
                     "dev-master": "9.2-dev"
                 }
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -981,8 +981,6 @@
                     "dev-master": "3.0-dev"
                 }
             },
-
-            "installation-source": "source",
             "installation-source": "dist",
             "autoload": {
                 "classmap": [
@@ -1050,7 +1048,6 @@
                     "dev-master": "3.1-dev"
                 }
             },
-            "installation-source": "source",
             "installation-source": "dist",
             "autoload": {
                 "classmap": [
@@ -1113,7 +1110,7 @@
                     "dev-master": "2.0-dev"
                 }
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -1175,7 +1172,7 @@
                     "dev-master": "5.0-dev"
                 }
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -1272,7 +1269,7 @@
                     "dev-master": "9.5-dev"
                 }
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "classmap": [
                     "src/"

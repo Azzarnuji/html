@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://34.101.218.110/';
+    public $baseURL = 'https://pontrendarulmuttaqin.com/';
 
     /**
      * --------------------------------------------------------------------------

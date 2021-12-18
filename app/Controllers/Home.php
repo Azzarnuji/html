@@ -4,11 +4,6 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    protected $parserTwo ;
-    public function __construct()
-    {
-        $this->parserTwo = \Config\Services::parser();
-    }
     public function index()
     {
         $data = [
@@ -17,11 +12,19 @@ class Home extends BaseController
         return view('home/index',$data);
     }
 
-    public function foto($folder = null, $file = null){
+    public function foto($tahun = null,$folder = null){
         $data = [
             'title'=>"Gallery Santri",
-            'folder'=>$folder,
-            'file'=>$file
+            'tahun'=>$tahun,
+            'folder'=>$folder
+        ];
+        return view('home/foto',$data);
+    }
+    public function images($tahun = null,$folder = null){
+        $data = [
+            'title'=>"Gallery Santri",
+            'tahun'=>$tahun,
+            'folder'=>$folder
         ];
         return view('home/foto',$data);
     }
